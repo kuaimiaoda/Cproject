@@ -58,14 +58,11 @@ void input(struct UndirectedGraph *g) {
 //计算指定顶点的度数
 int deg(char point[],struct UndirectedGraph *g)
 {
-    int i ,j ,deg = 0;
+    int i;
     for (i = 0; i < g->point_num; i++) //找到该点在矩阵对应行
         if(strcmp(point,g->point[i])==0)
             break;
-    for(j = 0;j<g->point_num;j++) //在该行统计度数
-        if(g->matrix[i][j] == 1)
-            deg++;
-    return deg;
+    return g->d[i];
 }
 
 //求图中结点结点度数之和
