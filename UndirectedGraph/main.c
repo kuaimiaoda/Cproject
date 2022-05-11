@@ -11,6 +11,5 @@ int main() {
             printf("%d ", graph.matrix[i][j]);
         printf("\n");
     }
-    printf("test");
     return 0;
 }
