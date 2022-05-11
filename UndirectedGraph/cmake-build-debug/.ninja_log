@@ -1,0 +1,27 @@
+# ninja log v5
+0	84	6739730425401604	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+86	172	6739730426271607	UndirectedGraph.exe	910cfc66693fea08
+1	205	6739758503441559	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+206	521	6739758506551557	UndirectedGraph.exe	910cfc66693fea08
+1	106	6739759520695063	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+106	204	6739759521625078	UndirectedGraph.exe	910cfc66693fea08
+1	81	6739763188109358	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+81	151	6739763188779292	UndirectedGraph.exe	910cfc66693fea08
+1	82	6739765641347262	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+83	157	6739765642027242	UndirectedGraph.exe	910cfc66693fea08
+2	97	6739768697283668	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+98	180	6739768698063627	UndirectedGraph.exe	910cfc66693fea08
+1	80	6739769736901634	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+81	156	6739769737621622	UndirectedGraph.exe	910cfc66693fea08
+1	80	6739771942312638	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+80	151	6739771942992630	UndirectedGraph.exe	910cfc66693fea08
+1	90	6739773185481520	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+91	167	6739773186221523	UndirectedGraph.exe	910cfc66693fea08
+2	84	6739778288416144	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+84	158	6739778289146349	UndirectedGraph.exe	910cfc66693fea08
+2	92	6739782915047993	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+92	168	6739782915778028	UndirectedGraph.exe	910cfc66693fea08
+2	82	6739784419561545	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+82	156	6739784420261567	UndirectedGraph.exe	910cfc66693fea08
+1	88	6739785365849449	CMakeFiles/UndirectedGraph.dir/main.c.obj	f93c1ecd6120b106
+88	164	6739785366579334	UndirectedGraph.exe	910cfc66693fea08
