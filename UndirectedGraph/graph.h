@@ -1,7 +1,7 @@
 
 struct UndirectedGraph {
-    char point[20][10];
-    int matrix[20][20];
+    char point[20][10];//顶点
+    int matrix[20][20];//矩阵
 };
 
 void input(struct UndirectedGraph *g) {
