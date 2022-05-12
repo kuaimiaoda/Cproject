@@ -14,8 +14,8 @@ int *deg_all(struct UndirectedGraph *g)
     static int deg[20] = {0};
     for(i = 0;i<g->point_num;i++) //在第i行统计度数,输入到列表对应位置上
         for(j = 0;j<g->point_num;j++)
-            if(g->matrix[i][j] == 1)
-                deg[i]++;
+            if(g->matrix[i][j] != 0)
+                deg[i]+=g->matrix[i][j];
     return deg;
 }
 
@@ -45,14 +45,13 @@ void input(struct UndirectedGraph *g) {
         for (k = 0; k < g->point_num; k++)
             if (strcmp(g->point[k], b) == 0)
                 break;
-        if(j !=k)
+        if(j != k)
             g->matrix[j][k] = g->matrix[k][j] = 1;
         else
-            g->matrix[j][k] = 2;
+            g->matrix[j][j] = 2;
     }
     g->d = deg_all(g);
 }
-
 
 
 //计算指定顶点的度数

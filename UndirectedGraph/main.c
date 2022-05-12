@@ -15,7 +15,7 @@ int main() {
     printf("请输入求度数的顶点：");
     scanf("%s",point);
     deg_point = deg(point,&graph);
-    printf("%s度数为：%d\n",point,deg_point);
+    printf("%s的度数为：%d\n",point,deg_point);
 
     //求度数之和
     sum = sum_deg(&graph);
