@@ -1,3 +1,0 @@
-D:/demo/Cproject/calendar/cmake-build-debug/CMakeFiles/calendar.dir
-D:/demo/Cproject/calendar/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/demo/Cproject/calendar/cmake-build-debug/CMakeFiles/rebuild_cache.dir

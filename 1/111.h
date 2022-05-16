@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 //输入数据，存到数组中
 void input(int a[]) {
     char s[1000];
