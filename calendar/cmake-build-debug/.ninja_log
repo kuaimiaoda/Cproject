@@ -1,0 +1,25 @@
+# ninja log v5
+1	85	6743716194088732	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+86	161	6743716194808698	calendar.exe	9bf21a71b7da81a0
+3	97	6743716485468131	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+97	179	6743716486258133	calendar.exe	9bf21a71b7da81a0
+2	89	6743716566568987	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+89	160	6743716567288967	calendar.exe	9bf21a71b7da81a0
+1	91	6743716640392101	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+92	167	6743716641122091	calendar.exe	9bf21a71b7da81a0
+1	85	6743716710547789	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+86	155	6743716711227690	calendar.exe	9bf21a71b7da81a0
+2	84	6743716817676277	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+86	155	6743716818356199	calendar.exe	9bf21a71b7da81a0
+1	87	6743716967155784	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+88	160	6743716967855790	calendar.exe	9bf21a71b7da81a0
+1	89	6743717148861209	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+89	162	6743717149561124	calendar.exe	9bf21a71b7da81a0
+1	88	6743717228313462	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+89	161	6743717229023549	calendar.exe	9bf21a71b7da81a0
+2	101	6743717411259758	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+102	176	6743717411989763	calendar.exe	9bf21a71b7da81a0
+1	87	6743717472073273	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+88	159	6743717472763282	calendar.exe	9bf21a71b7da81a0
+2	90	6743719093169725	CMakeFiles/calendar.dir/main.c.obj	2acae28102c983b7
+91	171	6743719093970045	calendar.exe	9bf21a71b7da81a0
