@@ -1,0 +1,3 @@
+D:/demo/Cproject/2048game/cmake-build-debug/CMakeFiles/2048game.dir
+D:/demo/Cproject/2048game/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/demo/Cproject/2048game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
