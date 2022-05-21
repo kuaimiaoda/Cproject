@@ -65,10 +65,15 @@ void a(int **game) {
         for (j = 0; j < size; j++) {
             if (game[i][j] != 0) {
                 for (k = j + 1; k < size; k++)
-                    if (game[i][j] == game[i][k]) {
+                    if (game[i][j] == game[i][k])
+                    {
                         game[i][j] *= 2;
                         game[i][k] = 0;
                     }
+                    else if(game[i][k] == 0)
+                        continue;
+                    else
+                        break;
             }
         }
     }
@@ -154,6 +159,26 @@ void s(int **game)
         }
 }
 
+// 满格时失败条件
+int defeat(int **game)
+{
+/*
+    返回值对应状态
+    0       失败
+    1       继续游戏
+*/
+    int i,j;
+    for(i = 0;i<size-1;i++)
+    {
+        for(j = 0;j<size-1;j++)
+            if(game[i][j] == game[i][j+1]||game[i][j] == game[i+1][j])
+                return 1;
+        if(game[i][size-1] == game[i+1][size-1])
+            return 1;
+    }
+    return 0;
+}
+
 // 游戏结束条件的判断
 int over(int **game)
 {
@@ -167,10 +192,12 @@ int over(int **game)
     for(i = 0;i<size;i++)
         for (j = 0; j < size; j++)
         {
-            if(game[i][j] == 2048)
+            if (game[i][j] == 2048)
                 return 1;
-            else if(game[i][j] == 0)
+            else if (game[i][j] == 0)
                 return 2;
         }
+    if(defeat(game) == 1)
+        return 2;
     return 0;
 }
